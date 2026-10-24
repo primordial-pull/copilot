@@ -8,8 +8,9 @@ Agora que o aplicativo funciona e está com boa aparência, é hora de polir. Es
 <!-- track:vscode:start -->
 ## Tarefa 1: Agente em Segundo Plano para Design Responsivo
 
-1. No painel de Chat, clique em **+** → **New background agent**.
-2. Digite este prompt:
+1. No painel de Chat, clique em **+** para iniciar um novo chat.
+2. Na parte inferior da janela, você verá **Local** mudar para **Copilot CLI**.
+3. Digite este prompt:
 
    ```
    Add responsive CSS media queries: at 1024px switch comparison to single column,
@@ -37,8 +38,9 @@ Agora que o aplicativo funciona e está com boa aparência, é hora de polir. Es
 
 ## Tarefa 3: Agente na Nuvem para Variações (Opcional)
 
-1. Clique em **+** → **New cloud agent**.
-2. Digite este prompt:
+1. No painel de Chat, clique em **+** para iniciar um novo chat.
+2. Na parte inferior da janela, você verá **Local** mudar para **Cloud**.
+3. Digite este prompt:
 
    ```
    Create an alternative color theme for the battle page — keep the retro arcade
@@ -46,8 +48,8 @@ Agora que o aplicativo funciona e está com boa aparência, é hora de polir. Es
    Create it as a CSS custom property theme that could be toggled.
    ```
 
-3. Verifique as **sessões de agentes** para monitorar o progresso.
-4. Revise a variação de design no PR que o agente na nuvem cria.
+4. Verifique as **sessões de agentes** para monitorar o progresso.
+5. Revise a variação de design no PR que o agente na nuvem cria.
 
 ## Tarefa 4: Verifique Tudo
 <!-- track:vscode:end -->
@@ -89,7 +91,7 @@ Revise as descobertas, corrija o que concordar, depois execute `/diff` novamente
 ## Tarefa 4: Verifique Tudo
 <!-- track:cli:end -->
 
-> **⚠️ Não está vendo as mudanças?** Se alguma das atualizações de polimento não estiver aparecendo, pare o servidor de desenvolvimento (`Ctrl+C`) e reinicie com `npm run dev`, depois faça uma atualização forçada (`Ctrl+Shift+R`) no seu navegador.
+> **⚠️ Não está vendo as alterações?** Se alguma das atualizações de polimento não estiver aparecendo, pare o servidor de desenvolvimento (`Ctrl+C`) e reinicie com `npm run dev`, depois faça uma atualização forçada (`Ctrl+Shift+R`) no seu navegador.
 
 Execute estes cenários de teste para garantir que tudo funciona:
 
